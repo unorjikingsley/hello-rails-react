@@ -5,6 +5,6 @@ const store = configureStore({
   reducer: {
     message: greetingReducer,
   },
-})
+});
 
 export default store;
