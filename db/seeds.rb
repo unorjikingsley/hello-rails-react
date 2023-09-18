@@ -11,3 +11,15 @@ Message.create(greeting: 'Bonjour')
 Message.create(greeting: 'Hola')
 Message.create(greeting: 'Guten Tag')
 Message.create(greeting: 'Ciao')
+
+# greetings = [
+#   "Hello, world!",
+#   "Hi there!",
+#   "Welcome!",
+#   "Greetings!",
+#   "Hey, how's it going?"
+# ]
+
+# greetings.each do |greeting|
+#   Message.create(content: greeting)
+# end
