@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Message.create(greeting: 'Hello')
-Message.create(greeting: 'Bonjour')
-Message.create(greeting: 'Hola')
-Message.create(greeting: 'Guten Tag')
-Message.create(greeting: 'Ciao')
+greeting_msgs = ['Hello React Rails', 'Welcome Rails React', 'I like React not Redux', 'React is good without Redux', 'Hello anyways to React in Rails']
+
+greeting_msgs.each do |msg|
+    Message.create(content: msg)
+end
 
 # greetings = [
 #   "Hello, world!",
